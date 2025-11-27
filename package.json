@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/upload-to-oss.mjs",
     "start": "next start",
     "lint": "eslint"
   },
@@ -21,6 +21,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "cos-nodejs-sdk-v5": "2.15.4"
   }
 }
