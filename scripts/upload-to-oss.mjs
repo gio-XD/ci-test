@@ -17,7 +17,7 @@ import path from "path";
 // 从环境变量读取配置
 const SecretId = process.env.TENCENT_SECRET_ID;
 const SecretKey = process.env.TENCENT_SECRET_KEY;
-const Bucket = "surf-1377905240"; // 例如：my-next-static-123456
+const Bucket = "surf2-1377905240"; // 例如：my-next-static-123456
 const Region = "ap-shanghai"; // 例如：ap-guangzhou
 
 if (!SecretId || !SecretKey || !Bucket || !Region) {
